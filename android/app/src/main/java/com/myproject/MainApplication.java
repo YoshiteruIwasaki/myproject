@@ -16,6 +16,7 @@ import java.util.Arrays;
 import java.util.List;
 
 
+  /*
 public class MainApplication extends NavigationApplication {
 
     @Override
@@ -39,8 +40,7 @@ public class MainApplication extends NavigationApplication {
         return getPackages();
     }
 }
-
-  /*
+*/
 public class MainApplication extends Application implements ReactApplication {
 
   private final ReactNativeHost mReactNativeHost = new ReactNativeHost(this) {
@@ -71,4 +71,3 @@ public class MainApplication extends Application implements ReactApplication {
     SoLoader.init(this, false);
   }
 }
-*/

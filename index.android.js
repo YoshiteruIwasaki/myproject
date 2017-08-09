@@ -46,7 +46,6 @@ export default class myproject extends Component {
         enableTranslate
       />
       */
-      /*
       <PhotoView
         resizeMode="contain"
         source={{ uri: 'https://facebook.github.io/react/img/logo_og.png' }}
@@ -55,7 +54,6 @@ export default class myproject extends Component {
         androidScaleType="center"
         style={{ width, height }}
       />
-      */
       /*
       <ImageZoom
         cropWidth={Dimensions.get('window').width}
@@ -72,7 +70,8 @@ export default class myproject extends Component {
         />
       </ImageZoom>
       */
-      <Text>Hello world!</Text>
+      /*<Text>Hello world!</Text>
+      */
     );
   }
 }
